@@ -5,6 +5,9 @@
       <list>
         <option value="$PROJECT_DIR$/student-service/pom.xml" />
         <option value="$PROJECT_DIR$/mentor-service/pom.xml" />
+        <option value="$PROJECT_DIR$/retry/pom.xml" />
+        <option value="$PROJECT_DIR$/discovery-service/pom.xml" />
+        <option value="$PROJECT_DIR$/api-gateway/pom.xml" />
       </list>
     </option>
   </component>

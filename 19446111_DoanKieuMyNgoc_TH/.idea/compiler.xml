@@ -6,18 +6,29 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="api-gateway" />
         <module name="student-service" />
         <module name="mentor-service" />
+        <module name="retry" />
+        <module name="discovery-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="api-gateway" target="17" />
+      <module name="discovery-service" target="17" />
+      <module name="discoveryservice" target="17" />
       <module name="mentor-service" target="17" />
+      <module name="retry" target="17" />
       <module name="student-service" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api-gateway" options="-parameters" />
+      <module name="discovery-service" options="-parameters" />
+      <module name="discoveryservice" options="-parameters" />
       <module name="mentor-service" options="-parameters" />
+      <module name="retry" options="-parameters" />
       <module name="student-service" options="-parameters" />
     </option>
   </component>
